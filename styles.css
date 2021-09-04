@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Nunito:wght@400;800&display=swap");
+
+:root {
+  /* --primary-color: #f59e0b; */
+  --primary-color: #10b981;
+  --dark-grey: #6b7280;
+  --off-white: #f3f4f6;
+  --error-color: red;
+  --dark-color: #740000;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+}
+hr {
+  margin: 2rem 0rem;
+}
+
+/*spaces*/
+
+.margin-md {
+  margin: 2rem;
+}
+
+/*container*/
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+/**links*/
+.link {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.link-secondary {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+}
+
+/**list**/
+.list-non-bulleted {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0 0.5rem;
+}
+
+/**navigation**/
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.navigation .link {
+  color: white;
+}
+
+.navigation .navigation-brand {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+/**headers */
+.header {
+  padding: 2rem;
+  padding-top: 5rem;
+}
+.header .header-image {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.header .header-title {
+  font-size: 1.1rem;
+  color: var(--dark-grey);
+  padding-top: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.header .header-title .header-inverted {
+  color: var(--primary-color);
+}
+
+/**section**/
+.section {
+  padding-top: 2rem;
+  min-height: 8rem;
+}
+
+.section h1 {
+  text-align: center;
+}
+
+.off-white {
+  background-color: var(--off-white);
+}
+
+/**footer**/
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  position: relative;
+  bottom: 0;
+  /* width: 100%; */
+  /* Height of the footer*/
+  height: 3rem;
+}
+
+.footer .footer-title {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.text-primary {
+  color: var(--dark-color);
+}
+
+.text-error {
+  color: var(--error-color);
+}

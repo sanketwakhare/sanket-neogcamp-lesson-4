@@ -6,17 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Banana Speak - Vanilla JS App</title>
     <script type="text/javascript" src="index.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>talk banana</h1>
-    <textarea
-      id="txtArea_text"
-      name="txtArea_text"
-      placeholder="Please enter text here to translate"
-      rows="6"
-      cols="50"
-    ></textarea>
-    <button id="btn_translate">Translate</button>
-    <div id="translated_text"></div>
+    <nav class="navigation">
+      <div class="navigation-brand">Random Title Generator</div>
+      <ul class="list-non-bulleted nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">Home</a>
+        </li>
+      </ul>
+    </nav>
+    <header class="header">
+      <img class="header-image" src="header_img.svg" /><img />
+      <h1 class="header-title">
+        random <span class="header-inverted">title</span> generator
+      </h1>
+    </header>
+    <section class="section off-white">
+      <div class="container container-center">
+        <input
+          id="input_number"
+          name="input_number"
+          placeholder="Please enter number"
+          type="number"
+        />
+        <a class="link link-primary" id="btn_generateTitle">generate title</a>
+      </div>
+    </section>
+    <section class="section off-white">
+      <div class="container container-center">
+        <strong><div id="title_text" class="text-primary"></div> </strong>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-title">Some small heading inside footer</div>
+      <ul class="links-social">
+        <li class="list-item-inline"><a class="link" href="">social One</a></li>
+        <li class="list-item-inline"><a class="link" href="">social Two</a></li>
+        <li class="list-item-inline">
+          <a class="link" href="">social Three</a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
