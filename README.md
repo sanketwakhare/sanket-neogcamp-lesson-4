@@ -1,3 +1,3 @@
-# JavaScript App - Banana speaks
+# JavaScript App - Random Title Generator using APIs
 
 @neogcamp
