@@ -118,7 +118,7 @@ hr {
 /**section**/
 .section {
   padding-top: 2rem;
-  min-height: 8rem;
+  min-height: 17rem;
 }
 
 .section h1 {
@@ -139,9 +139,7 @@ hr {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   position: relative;
-  bottom: 0;
-  /* width: 100%; */
-  /* Height of the footer*/
+  bottom: 0rem;
   height: 3rem;
 }
 
@@ -160,8 +158,14 @@ hr {
 
 .text-primary {
   color: var(--dark-color);
+  font-weight: 600;
 }
 
 .text-error {
   color: var(--error-color);
+}
+
+.input-textfield {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }
